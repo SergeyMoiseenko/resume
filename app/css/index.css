@@ -1,0 +1,64 @@
+/* stylelint-disable-next-line */
+@import-normalize;
+
+.header_page {
+  width: 100vw;
+  height: 100vh;
+}
+.site_header {
+  background-color: #022F3C;
+  height: 50px;  
+}
+
+.menu_button {
+  position: absolute; 
+  width: 70px;
+  height: 70px;
+  margin-left: 5%;
+  margin-top: 10px;
+  background-color: #F16464;
+  border-radius: 50%;
+  box-shadow: 0px 3px 0px 0px #9F1818;
+}
+
+.menu_button:hover {
+  background-color: #FF716F;
+}
+
+.menu_button:active {
+  background-color: #FF716F;
+  transform: translate(0px, 3px);
+  box-shadow: 0px 1px 0px 0px #9F1818;
+}
+
+.menu_button > i {
+  display: block;
+  line-height: 70px;
+  text-align: center;
+  color: #022F3C;
+}
+
+.social_buttons {
+  position: absolute;
+  right: 5%;
+  width:150px;
+}
+.social_buttons a {
+  color: #fff;
+}
+
+.social_buttons i {
+  line-height: 50px;
+  margin-left: 15px;
+}
+
+.social_buttons i:hover {
+  line-height: 50px;
+  margin-left: 15px;
+  text-shadow: 0 0 15px #fff;
+}
+
+.header_main {
+  background-color: #125163;
+  height: 670px;
+}
