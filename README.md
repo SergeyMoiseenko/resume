@@ -1,5 +1,5 @@
 # resume-site
-My personal resume site (under development) created on the basis of my universal-static-template
+My personal resume site (under development) created on the basis of my [universal-static-template](https://github.com/SergeyMoiseenko/universal-static-template)
 
 ## Quickstart
 
